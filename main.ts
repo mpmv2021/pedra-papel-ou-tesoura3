@@ -23,33 +23,12 @@ input.onGesture(Gesture.Shake, function () {
             # . . . .
             # . . . .
             `)
-        if (minha_escolha == 1) {
-            basic.showString("Empatamos")
-        } else if (minha_escolha == 2) {
-            basic.showString("Ganhei")
-        } else {
-            basic.showString("Perdi")
-        }
     } else if (outra_escolha == 2) {
         basic.pause(2000)
         basic.showIcon(IconNames.Square)
-        if (minha_escolha == 2) {
-            basic.showString("Empatamos")
-        } else if (minha_escolha == 3) {
-            basic.showString("Ganhei")
-        } else {
-            basic.showString("Perdi")
-        }
     } else {
         basic.pause(2000)
         basic.showIcon(IconNames.Scissors)
-        if (minha_escolha == 3) {
-            basic.showString("Empatamos")
-        } else if (minha_escolha == 1) {
-            basic.showString("Ganhei")
-        } else {
-            basic.showString("Perdi")
-        }
     }
 })
 input.onButtonPressed(Button.AB, function () {
