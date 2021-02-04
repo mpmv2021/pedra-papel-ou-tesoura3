@@ -1,5 +1,5 @@
 {
-    "name": "Pedra papel ou tesoura",
+    "name": "Pedra papel ou tesoura (exp)",
     "description": "",
     "dependencies": {
         "core": "*",
